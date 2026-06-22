@@ -4,7 +4,7 @@ const Todo = ({ todos, deleteTodo }) => {
   return (
     <div>
       {todos.map((todo, index) => (
-        <div key={index}>
+        <div key={index}>npm 
           <span>{todo}</span>
 
           <button
